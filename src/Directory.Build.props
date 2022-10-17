@@ -1,0 +1,6 @@
+<Project>
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="$(NewtonsoftJson_Version)" />
+    </ItemGroup>
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+</Project>
