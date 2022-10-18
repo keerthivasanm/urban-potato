@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <AcmeDefaultFrameworkVersion>net6.0</AcmeDefaultFrameworkVersion>
+    <AcmeRepoRoot>$(MSBuildThisFileDirectory)</AcmeRepoRoot>
+    <Company>Acme Inc.</Company>
+    <Copyright>Copyright © Acme Incorporated. All rights reserved.</Copyright>
+    <Product>Acme Sample App</Product>
+    <Version>25.1.2.0</Version>
+    <Deterministic>false</Deterministic>
+    <!-- Enable Source Linking -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.SlnGen" Version="8.5.17" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+  </ItemGroup>
+  <Import Project="$(AcmeRepoRoot)\project-commons\package-references\*.props" />
+</Project>

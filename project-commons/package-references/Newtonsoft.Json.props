@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <NewtonsoftJson_Version>13.0.1</NewtonsoftJson_Version>
+  </PropertyGroup>
+</Project>

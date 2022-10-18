@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>$(AcmeDefaultFrameworkVersion)</TargetFramework>
+    <RootNamespace>Quote.App</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>419418fa-a696-4bc3-9449-d6ed32795671</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Spectre.Console" Version="0.45.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
