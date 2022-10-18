@@ -13,6 +13,12 @@
       "commands": [
         "slngen"
       ]
+    },
+    "dotnet-outdated-tool": {
+      "version": "4.2.0",
+      "commands": [
+        "dotnet-outdated"
+      ]
     }
   }
 }

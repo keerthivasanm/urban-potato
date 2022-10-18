@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ScmCaching" Version="5.7.1.3" />
+    <PackageReference Include="ScmCoreUtil" Version="3.9.0.1" />
+  </ItemGroup>
+
 </Project>
