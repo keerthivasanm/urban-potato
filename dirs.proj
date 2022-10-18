@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.Build.Traversal">
     <ItemGroup>
         <ProjectReference Include="src\domain\domain.csproj" Test="false" />
-        <ProjectReference Include="src\console-app\console-app.csproj" Test="false" />
+        <ProjectReference Include="src\quote-app\quoteapp.csproj" Test="false" />
         <ProjectReference Include="src\infrastructure\infrastructure.csproj" Test="false" />
         <ProjectReference Include="src\shared\shared.csproj" Test="false" />
     </ItemGroup>
