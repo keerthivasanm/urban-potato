@@ -1,6 +1,6 @@
-﻿namespace domain;
+namespace Quote.App.Domain;
 
 public interface IQuoteService
 {
-	Task<Quote> GetRandom();
+	Task<global::Quote.App.Domain.Quote> GetRandom();
 }

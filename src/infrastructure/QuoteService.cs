@@ -1,18 +1,18 @@
-using domain;
 using Flurl;
 using Flurl.Http;
+using Quote.App.Domain;
 
-namespace infrastructure;
+namespace Quote.App.Infrastructure;
 
 public class QuoteService : IQuoteService
 {
 	private const string QuotableBaseUri = "https://api.quotable.io";
 
-	public async Task<Quote> GetRandom()
+	public async Task<Quote.App.Domain.Quote> GetRandom()
 	{
 		var quote = await QuotableBaseUri
 			.AppendPathSegment("random")
-			.GetJsonAsync<Quote>();
+			.GetJsonAsync<Quote.App.Domain.Quote>();
 
 		return quote;
 	}

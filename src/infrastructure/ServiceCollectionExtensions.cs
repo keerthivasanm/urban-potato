@@ -1,8 +1,7 @@
-using domain;
-using infrastructure;
 using Microsoft.Extensions.DependencyInjection;
+using Quote.App.Domain;
 
-namespace Infrastructure
+namespace Quote.App.Infrastructure
 {
 	public static class ServiceCollectionExtensions
 	{

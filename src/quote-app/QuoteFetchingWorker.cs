@@ -1,4 +1,4 @@
-using domain;
+using Quote.App.Domain;
 using Spectre.Console;
 
 namespace Quote.App;
